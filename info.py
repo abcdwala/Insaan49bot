@@ -21,7 +21,7 @@ ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ
 USERNAME = environ.get('USERNAME', "https://telegram.me/@FilmyInsaan1m")
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002266075027'))
 MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/Movieupdatewithak01')
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002249219491').split()]
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002514705585').split()]
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://ankushdeb91:WpbkXkwE0rL98h7q@cluster0.cpl3y.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 
 DATABASE_NAME = environ.get('DATABASE_NAME', "Sandhu")
@@ -38,12 +38,12 @@ IS_VERIFY = is_enabled('IS_VERIFY', True)
 LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '-1002367259986'))
 TUTORIAL = environ.get("TUTORIAL", "https://t.me/How_To_Dowload_Watch_Krownlinks/10")
 VERIFY_IMG = environ.get("VERIFY_IMG", "https://graph.org/file/1669ab9af68eaa62c3ca4.jpg")
-SHORTENER_API = environ.get("SHORTENER_API", "f03aed2f3fafa60feb7d51c6d7085c98aa796805")
-SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", 'krownlinks.me')
-SHORTENER_API2 = environ.get("SHORTENER_API2", "f03aed2f3fafa60feb7d51c6d7085c98aa796805")
-SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", 'krownlinks.me')
-SHORTENER_API3 = environ.get("SHORTENER_API3", "f03aed2f3fafa60feb7d51c6d7085c98aa796805")
-SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", 'krownlinks.me')
+SHORTENER_API = environ.get("SHORTENER_API", "89442df74dc74af60f20455a8b2e07aebef1a402")
+SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", 'linkshortify.com')
+SHORTENER_API2 = environ.get("SHORTENER_API2", "89442df74dc74af60f20455a8b2e07aebef1a402")
+SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", 'linkshortify.com')
+SHORTENER_API3 = environ.get("SHORTENER_API3", "89442df74dc74af60f20455a8b2e07aebef1a402")
+SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", 'linkshortify.com')
 TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "86400"))
 THREE_VERIFY_GAP = int(environ.get('THREE_VERIFY_GAP', "86400"))
 
